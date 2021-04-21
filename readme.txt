@@ -14,5 +14,13 @@ Open string.php file in root directory and
    Parameters in gmail()
    gmail("--TO / RECIEVERS E-MAIL ADDRESS --", "-- MAIL SUBJECT --", "-- MAIL BODY (Can accept HTML)--");
    
+   If Mail is sent, this function will return true, if mail is not sent due to some reason, this function will return false so that you can use it like normal mail() funtion.
+   for eg:
+    if (gmail($to, $subject, $body)){
+     echo "Mail Sent";
+    }else{
+     echo "Mail Not sent";
+    }
+   
    You can delete this file, if you know how to use this Library.
    
