@@ -14,4 +14,5 @@ Open string.php file in root directory and
    Parameters in gmail()
    gmail("--TO / RECIEVERS E-MAIL ADDRESS --", "-- MAIL SUBJECT --", "-- MAIL BODY (Can accept HTML)--");
    
+   You can delete this file, if you know how to use this Library.
    
